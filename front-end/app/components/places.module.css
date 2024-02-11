@@ -1,0 +1,82 @@
+
+
+.placesContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.bannerImage {
+  width: 100%;
+  height: auto;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start; 
+  text-align: right; 
+  
+  margin: 20px 0;
+}
+
+.headingContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-right: 2%;
+}
+
+.headingLeft {
+  text-align: left;
+}
+
+.saveButton {
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-left: auto;
+
+}
+.placesContainer .actionButtonsContainer {
+  display: flex;
+ 
+}
+
+
+
+
+.placesContainer .actionButton svg {
+  margin-right: 10px;
+  font-size: 20px; 
+  margin-right: 10px;
+}
+
+
+
+.readMoreButton {
+  
+ 
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  text-align: center; 
+  width: auto;
+  margin: 0 auto; 
+}
+
+
+
+
+
+
+  

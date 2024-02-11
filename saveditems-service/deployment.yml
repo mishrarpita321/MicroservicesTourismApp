@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: saveditems-service
+  labels:
+    app: saveditems-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: saveditems-service
+  template:
+    metadata:
+      labels:
+        app: saveditems-service
+    spec:
+      containers:
+      - name: saveditems-service
+        image: mishrarpita/saveitems-service:latest
+        ports:
+        - containerPort: 8000

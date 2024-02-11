@@ -1,0 +1,118 @@
+
+.container{
+    background: -webkit-linear-gradient(right, #262727, #99989a, #afb1b1, #eeedee);
+  width: 800px;
+  padding: 25px 40px 10px 40px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid;
+  padding: 20px;
+  background-color: #fff;
+  width: 650px;
+  border-radius: 6px;
+}
+
+
+.container .text{
+  text-align: center;
+  font-size: 41px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  background: -webkit-linear-gradient(right, #ffffff, #fff, #fff, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container form{
+  padding: 30px 0 0 0;
+}
+.container form .formrow{
+  display: flex;
+  margin: 32px 0;
+}
+
+
+.inputdata {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+  }
+  
+.label {
+    margin-right: 10px; 
+  }
+  
+.inputdata input {
+    flex: 1; 
+    font-size: 1;
+  }
+  .labelimg {
+    margin-right: 10px;
+    margin-left: 70px;
+  }
+
+  .labelplace {
+    margin-right: 10px;
+    margin-left: 70px; 
+  }
+
+.msg {
+
+    margin-left: -95px;
+    margin-right: 15px;    
+  
+}
+.img{
+  margin-left: -50px;
+  margin-right: 39px;
+}
+
+  .button {
+    position: relative;
+    right: 0;
+   
+    overflow: hidden;
+    background-color: #f5f6f7; 
+    color: #0c0c0c;
+    padding: 10px 10px; 
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 8%;
+  }
+  .btn{
+    position: relative;
+    right: 0;
+   
+    overflow: hidden;
+    background-color: #f5f6f7; 
+    color: #0c0c0c;
+    padding: 10px 10px; 
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+   
+    margin-bottom: 8%;
+    margin-left: 180px;
+  }
+
+  .cnl {
+    position: relative;
+    right: 0;
+   
+    overflow: hidden;
+    background-color: #f5f6f7; 
+    color: #0c0c0c;
+    padding: 10px 10px; 
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 8%;
+  }
+  
+  
+

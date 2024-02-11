@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: place-service
+  labels:
+    app: place-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: place-service
+  template:
+    metadata:
+      labels:
+        app: place-service
+    spec:
+      containers:
+      - name: place-service
+        image: mishrarpita/place-service:latest
+        ports:
+        - containerPort: 9000

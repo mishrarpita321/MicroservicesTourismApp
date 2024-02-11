@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    margin-top: 30px;
+  }
+
+.Austria {
+    background-image: url('/Images/Austria.jpeg');
+  }
+  
+  .Finland{
+    background-image: url('/Images/Finland.jpeg');
+  }
+  
+  .Greece{
+    background-image: url('/Images/Greece.jpeg');
+  }
+
+  .Austria,.Finland,.Greece{
+    background-position: center;
+    background-size:220% ;
+    background-repeat: no-repeat;
+
+    filter: saturate(10%);
+    width: 190px;
+    height:254px;
+    border-radius: 12px;
+    transition: all .3s;
+  }
+
+  .Austria:hover,.Finland:hover,.Greece:hover{
+    transform: scale(0.98);
+    filter: saturate(100%);
+    border-radius: 20px;
+
+  }
+  
+  .panel {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    border-radius: 60px;
+    color: #fff;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 20px;
+    position: relative;
+    padding: 35px;
+    margin-bottom: 50px;
+  }
+
+  .text{
+    position: absolute;
+    bottom: 10px;
+  
+  }
+
+
+  
+  

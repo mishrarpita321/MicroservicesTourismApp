@@ -1,0 +1,59 @@
+.Paris {
+    background-image: url('/Images/europe.webp');
+    background-size: cover;
+   background-color: black;
+   height: 100vh; 
+  
+  }
+.wanderlust {
+    text-align: center;
+    font-size: 50px; /* Adjust the font size as needed */
+    font-weight: bold; /* Optionally make the text bold */
+    color: #f8f1f1; /* Adjust the color as needed */
+    margin-top: 5px;
+    justify-content: center;
+  height: 30vh;
+ 
+    
+  }
+
+  .wanderlustpara{
+    bottom: 10px;
+    font-size: 20px;
+    margin: 50px;
+    color: #f8f1f1;
+  }
+  
+  .paragraph {
+    text-align: center;
+    text-align: justify;
+    font-size: 20px; /* Adjust the font size as needed */
+    color: #f2eeee; 
+    max-width: 900px; /* Adjust the maximum width as needed */
+    margin: 50px;
+  }
+
+  .logoContainer {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  
+    top: 1750px; /* Adjust the distance from the top as needed */
+    right: 0;
+    transform: translateY(-50%);
+   flex-direction: column;
+   margin-right: 200px;
+   margin-top:-120px;
+   
+   
+  }
+  .logoContainer img {
+    margin-bottom: 20px; /* Adjust the spacing between images */
+  }
+
+  .img {
+    margin-bottom: 100px; /* Adjust the spacing between images */
+  }
+
+  

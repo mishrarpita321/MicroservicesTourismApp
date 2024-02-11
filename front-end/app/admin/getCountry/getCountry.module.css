@@ -1,0 +1,54 @@
+.countrydetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    text-align: center;
+    left: 15%;
+    position: relative;
+}
+.label{
+    font-weight: 600;
+    font-size: 22px;
+}
+.test {
+    margin-top: 5%;
+}
+.table td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 15px;
+}
+.table th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 15px;
+}
+
+.countrydetails h1 {
+    margin: 3% 0 1% 0;
+}
+
+.table {
+border-collapse: collapse;
+width: 100%;
+border: 1px solid #ddd;
+text-align: left;
+overflow: scroll;
+}
+.buttons {
+display: flex;
+}
+.add,
+.delete {
+ margin-right: 5px;
+ padding: 9px;
+ border-radius: 20px;
+ width: 67px;
+ background-color: #d3e99d;
+ border: none;
+}
+
+.delete {
+ background-color: #e99d9d
+}

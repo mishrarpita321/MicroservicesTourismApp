@@ -1,0 +1,30 @@
+.item {
+    list-style: none;
+    padding: unset;
+    margin: unset;
+    display: flex;  
+    flex-direction: column;
+    color: rgb(15, 15, 15);
+  }
+  
+  .items {
+    padding: 14px;
+    transition: all linear 0.3s;
+    
+  }
+  
+  .items:hover {
+    cursor: pointer;
+    color: #ef0c0c;
+    
+    transition-delay: 0.1s;
+  }
+  
+  .dropdownmenu {
+    background: #fff;
+    box-shadow: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
+    transition: all linear 0.3s;
+    display: flex;  
+    flex-direction: column;
+    
+  }
